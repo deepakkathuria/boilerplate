@@ -1,0 +1,76 @@
+:root {
+  font-family: 'Public Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background: #eee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.MuiButtonBase-root,
+.MuiTypography-root {
+  font-family: 'Public Sans', Arial, sans-serif !important;
+}
+
+.MuiPaper-rounded {
+  border-radius: 6px !important;
+}
+
+.app-loading {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  opacity: 0.7;
+  margin: 35px 0;
+}
+
+.text__brand-logo {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.grid__login {
+  width: 40%;
+  margin: 15vh auto;
+}
+
+.box-a {
+  width: 50%;
+  margin: 5vh;
+  border: 2px solid #1976d2;
+}
+
+.header {
+  margin: 5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid__login {
+    width: 90%;
+    margin: 10vh auto;
+  }
+}
